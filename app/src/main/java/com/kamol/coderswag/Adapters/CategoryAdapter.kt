@@ -57,4 +57,4 @@ class CategoryAdapter(context: Context, categories: List<Category>) : BaseAdapte
         var categoryImage: ImageView? = null
         var categoryName: TextView? = null
     }
-}
+} 
