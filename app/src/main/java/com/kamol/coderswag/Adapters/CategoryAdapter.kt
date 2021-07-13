@@ -11,10 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.kamol.coderswag.Model.Category
 import com.kamol.coderswag.R
 
-class CategoryAdapter(context: Context, categories: List<Category>) : BaseAdapter() {
-
-    val context = context
-    val categories = categories
+class CategoryAdapter(val context: Context, val categories: List<Category>) : BaseAdapter() {
 
     override fun getCount(): Int {
         return categories.count()
@@ -57,4 +54,4 @@ class CategoryAdapter(context: Context, categories: List<Category>) : BaseAdapte
         var categoryImage: ImageView? = null
         var categoryName: TextView? = null
     }
-} 
+}
